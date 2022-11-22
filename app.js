@@ -14,5 +14,10 @@ app.post('/', (req, res) => {
     res.status(status).json(result)
   })
 })
+app.get('',(req,res)=>{
+
+  res.send("Hello")
+
+})
 
 app.listen(port, () => console.log(`Listening on port ${port}!`))
