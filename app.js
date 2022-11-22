@@ -14,7 +14,7 @@ app.post('/', (req, res) => {
     res.status(status).json(result)
   })
 })
-app.get('',(req,res)=>{
+app.get('/',(req,res)=>{
 
   res.send("Hello")
 
