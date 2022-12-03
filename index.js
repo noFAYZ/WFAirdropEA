@@ -20,7 +20,7 @@ const createRequest = (input, callback) => {
   const validator = new Validator(callback, input, customParams)
   const jobRunID = validator.validated.id
   const endpoint = validator.validated.data.endpoint || 'getHoldersAddresses'
-  const url = `https://hydrowhales.uc.r.appspot.com/${endpoint}/`
+  const url = `https://hwea-369417.lm.r.appspot.com/${endpoint}/`
  
 
   // This is where you would add method and headers
